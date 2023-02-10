@@ -1,0 +1,32 @@
+.sectionEpisodes {
+  margin-top: 60px;
+  &Wrapper {
+
+    &Title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 27px;
+      color: #FFFFFF;
+      text-align: center;
+    }
+    &Card {
+      margin-bottom: 50px;
+      &VideoBlock {
+
+      }
+      &EpisodeNumber {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #118DA8;
+      }
+      &Title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}

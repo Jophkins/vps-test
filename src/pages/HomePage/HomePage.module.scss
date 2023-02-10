@@ -1,0 +1,207 @@
+// HEADER
+
+.sectionHeader {
+
+  margin-top: 40px;
+
+  &Wrapper {
+
+    &Image {
+      position: relative;
+
+      img {
+        border-radius: 15px;
+      }
+
+      svg {
+        position: absolute;
+        top: -26px;
+        left: -15px;
+      }
+    }
+
+    &Content {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      &Title {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 88px;
+        letter-spacing: 3.2px;
+        color: #FFFFFF;
+
+        .dash {
+          position: relative;
+
+          svg {
+            position: absolute;
+            left: 0;
+            top: 80%;
+          }
+        }
+
+        .bold {
+          font-weight: 700;
+          font-size: 80px;
+        }
+      }
+
+      &Socials {
+        max-height: 250px;
+        padding-top: 40px;
+
+        p {
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          display: flex;
+
+          li {
+            margin-right: 17px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// / HEADER
+
+// EPISODES
+
+.sectionEpisodes {
+  margin-top: 100px;
+
+  &Wrapper {
+    .headerRow {
+      margin-bottom: 40px;
+    }
+
+    &Title {
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 79px;
+
+      letter-spacing: 2.88px;
+      color: #FFFFFF;
+    }
+
+    &Btn {
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      background-color: #118DA8;
+      transition: 0.2s ease-in-out;
+
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 27px;
+      color: #FFFFFF;
+
+      &:hover {
+        background-color: #118ca880;
+      }
+    }
+
+    .contentRow {
+      margin-bottom: 60px;
+      background: #000000;
+      border-radius: 32px;
+    }
+
+    &Content {
+      padding: 40px;
+
+      &Tags {
+        display: inline;
+        padding: 2px 16px;
+        background: #191919;
+        border-radius: 6px;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+      }
+
+      &EpisodeNumber {
+        margin-top: 50px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        color: #118DA8;
+      }
+
+      &Title {
+        margin-top: 18px;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 70px;
+
+        letter-spacing: 2.56px;
+        color: #FFFFFF;
+      }
+
+      &Description {
+        margin-top: 28px;
+        margin-bottom: 18px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+  }
+}
+
+// / EPISODES
+
+// COMMENTS
+
+.sectionComments {
+  margin-top: 100px;
+
+  &Wrapper {
+    &Item {
+      margin-bottom: 20px;
+      padding: 40px;
+      min-height: 320px;
+      background: #000000;
+      border-radius: 32px;
+
+      &:hover {
+        background: #333333;
+      }
+
+      &Title {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        color: #FFFFFF;
+      }
+
+      &Author {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+  }
+}
+
+// / COMMENTS

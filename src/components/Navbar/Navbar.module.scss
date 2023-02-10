@@ -1,0 +1,19 @@
+// NAV
+
+.nav {
+  padding: 20px 0;
+
+  &Wrapper {
+    padding: 0 50px;
+  }
+
+  .linkItem {
+    color: #fff;
+
+    &:hover {
+      color: #118DA8;
+    }
+  }
+}
+
+// / NAV
